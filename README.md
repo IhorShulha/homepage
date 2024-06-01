@@ -1,2 +1,2 @@
 # homepage
-My first personal website. Basically it is just a resume. Test
+My first personal website. Basically it is just a resume.
