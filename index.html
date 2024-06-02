@@ -1,12 +1,118 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Résumé</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    ― Hello World! &#x1F609;
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe's CV</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <main>
+        <div class="resume">
+            <div class="container">
+                <div class="resume__block animate__fadeIn">
+                    <h1 class="contact-info__header"><i class="fas fa-user"></i> Ihor Shulha </h1>
+                    <div class="contact_info_container fh">
+                        <div class="contact-info__block">
+                            <a href="#" class="contact-info__item">
+                                <i class="fas fa-map-marker-alt contact-info__item-icon"></i>
+                                <span class="contact-info__item-text">Dnipro, Ukraine</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/ihor-shulha-0a5b3112b/" class="contact-info__item">
+                                <i class="fab fa-linkedin contact-info__item-icon"></i>
+                                <span class="contact-info__item-text">Linkedin</span>
+                            </a>
+                        </div>
+                        <div class="contact-info__block contact-info__block--center">
+                            <img class="contact-info__avatar" src="assets/avatar.png" alt="Avatar">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="resume__block animate__fadeIn">
+                    <h3 class="section__header"><i class="fas fa-info-circle"></i> Introduction</h3>
+                    <div class="intro">
+                        <p class="intro_text">
+                          Мене звуть Ігор, мені 31 рік. Я працюю аналітиком даних, володію Python, а раніше був PHP-розробником. Тепер хочу підкорити фронтенд, щоб створювати інтерактивні веб-застосунки.
+                          Моя мета - об'єднати знання бекенду та нові навички фронтенду, щоб розробляти ефективні та естетичні рішення. У вільний час захоплююсь саморозвитком і люблю експериментувати з новими технологіями.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="resume__block animate__fadeIn">
+                    <h3 class="section__header"><i class="fas fa-tools"></i> Skills</h3>
+                    <div class="skills">
+                        <p class="skills__text">
+                          Я маю початковий рівень володіння мовою програмування Python і знайомий з такими бібліотеками для аналізу даних, як Pandas та NumPy. Для обробки та візуалізації даних також використовую Matplotlib.
+                          Додатково, я працюю з простими інструментами для аналізу даних, такими як Google Sheets та Microsoft Excel, що дозволяє мені швидко проводити базовий аналіз і створювати зручні звіти.
+                          Маю базові знання HTML і CSS, що дозволяє мені розуміти структуру веб-сторінок. Знання JavaScript переважно теоретичні, але активно працюю над їх поглибленням.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+              <div class="resume__block animate__fadeIn">
+                  <h3 class="section__header"><i class="fas fa-briefcase"></i> Experience</h3>
+                  <div class="main-info">
+                      <div class="experiences">
+                          <div class="experiences__company">
+                              <h3 class="experiences__company-header-name">Data Analyst</h3>
+                              <ul class="experiences__company-project-responsibilities">
+                                  <li>Аналізую дані за допомогою Python, використовую бібліотеки Pandas та NumPy.</li>
+                                  <li>Створюю та підтримую автоматизовані звіти і дашборди у Google Sheets та Excel.</li>
+                                  <li>Використовую Matplotlib та Seaborn для візуалізації даних.</li>
+                                  <li>Працюю з великими обсягами даних для виявлення ключових інсайтів та надання рекомендацій для бізнесу.</li>
+                              </ul>
+                          </div>
+                          <div class="experiences__company">
+                              <h3 class="experiences__company-header-name">PHP Developer</h3>
+                              <ul class="experiences__company-project-responsibilities">
+                                  <li>Розробляв та підтримував бекенд-системи на базі PHP.</li>
+                                  <li>Інтегрував різноманітні API для забезпечення функціональності веб-застосунків.</li>
+                                  <li>Оптимізував код для підвищення продуктивності та зниження часу відповіді сервера.</li>
+                                  <li>Співпрацював з фронтенд-розробниками для створення інтерактивних веб-сторінок.</li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+
+
+            <div class="container">
+              <div class="resume__block animate__fadeIn">
+                <h3 class="section__header"><i class="fas fa-graduation-cap"></i> Education</h3>
+                <div class="additional-info">
+                    <div class="additional-info__education">
+                        <h3 class="additional-info__education-university-name">Дніпропетровський національний університет ім. О. Гончара</h3>
+                        <span class="additional-info__education-university-durability">2010 - 2016</span>
+                    </div>
+                </div>
+            </div> 
+            
+            
+            <div class="container">
+              <div class="resume__block animate__fadeIn">
+                  <h3 class="section__header"><i class="fas fa-language"></i> Languages</h3>
+                  <div class="additional-info">
+                      <div class="additional-info__languages">
+                          <p class="additional-info__languages-item"><strong>Українська:</strong> рідна мова, якою я спілкуюся щодня, і вона займає особливе місце в моєму серці.</p>
+                          <p class="additional-info__languages-item"><strong>Англійська:</strong> трохи нижче за середній рівень. Я активно працюю над покращенням своїх навичок: слухаю лекції та читаю тексти англійською мовою. Це дозволяє мені краще розуміти технічну літературу.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+
+
+
+            </div>
+        </div>
+    </main>
+</body>
 </html>
